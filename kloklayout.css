@@ -1,4 +1,3 @@
-
 .grid-container{
   display: grid;
   grid-template-columns: 1fr;
@@ -17,10 +16,17 @@
   grid-area: key;
 } 
 
+.box2{
+  grid-area: oil;
+}
 
+.box3 {
+  grid-area: speedo;
+}
 
-
-
+.box4 {
+  grid-area: ad;
+}
 
 .box5 {
   grid-area: foot;
