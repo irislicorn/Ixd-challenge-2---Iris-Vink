@@ -5,9 +5,9 @@ body {
   
   
  
-  background-color: black;
 
-  
+ background: url(Sunset-View.jpg) no-repeat center 100%;
+  background-color: black;
   border-width: 0,2px;
 font-family: 'Poppins', sans-serif;
 }
@@ -39,17 +39,8 @@ background-color: blue;
   
 
 }
-.grid-container > div:nth-child(4) {
-    
-color:white;
 
-background-color: red;
-}
-.grid-container > div:nth-child(5) {
 
-background-color: green;
-  
-}
 
 
 
