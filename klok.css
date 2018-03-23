@@ -2,9 +2,6 @@
 @import url('https://fonts.googleapis.com/css?family=Rajdhani');
 
 body {
-  
-  
- 
 
  background: url(Sunset-View.jpg) no-repeat center 100%;
   background-color: black;
@@ -41,8 +38,22 @@ background-color: blue;
 }
 
 
+.nightback {
+	 background: url(nachtback.jpeg) no-repeat center 100%;
+}
 
+.dayback {
+	  background: url(Sunset-View.jpg) no-repeat center 100%;
+}
 
+.nuggets {
+	height:300px;
+	width:100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
 
 
 .databalk {
@@ -119,8 +130,14 @@ background-color:transparent;
 }
 
 
+.niels {
+	font-size: 250%;
+}
 
-
+#switch {
+	background-color: black;
+	color:white;
+}
 
 
 

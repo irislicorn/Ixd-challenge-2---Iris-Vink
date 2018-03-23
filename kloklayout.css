@@ -4,7 +4,7 @@
   grid-gap: 40px;
 
   grid-template-areas: 
-        "key"
+        "time"
         "speedo"
         "oil"
         "ad"
@@ -13,7 +13,7 @@
 
 
 .box1{
-  grid-area: key;
+  grid-area: time;
 } 
 
 .box2{
@@ -24,13 +24,6 @@
   grid-area: speedo;
 }
 
-.box4 {
-  grid-area: ad;
-}
-
-.box5 {
-  grid-area: foot;
-}
 
 
 
@@ -44,7 +37,7 @@
     grid-gap: 10px;
 
     grid-template-areas: 
-          "key key"
+          "time time"
           "oil  oil"
           "speedo  ad"
           "foot  foot"; 
@@ -61,7 +54,7 @@
     grid-gap: 10px;
 
     grid-template-areas: 
-          "key key key"
+          "time time time"
           "oil oil speedo"
           "oil oil ad"
           "foot foot foot"; 
@@ -80,7 +73,7 @@
     grid-gap: 10px;
 
     grid-template-areas: 
-          "speedo      key     key key key    "
+          "speedo      time     time time time    "
           "speedo      latest    oil     oil  oil"
           "speedo       .         oil      oil  oil"
           "highlight highlight highlight ad    ad"
